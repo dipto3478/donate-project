@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 /* header style  */
 header{
-    background-image: url('../donation1.jpg');
+    background-image: url('../images/donation1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
@@ -38,4 +42,56 @@ header{
     border: none;
     font-size: 25px;
     border-radius: 5px;
+}
+/* Donate Today styles  */
+.donate-today{
+    margin: 100px auto;
+    text-align: center;
+}
+.section-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+.section-description{
+    font-size: 22px;
+    width: 500px;
+    margin: 10px auto;
+    color: #000000c7;
+}
+.donate-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.donate-card{
+    width: 150px;
+    height: 150px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dc-description{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+.donate-card:nth-child(2){
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.des-2nd{
+    color: #FF5959;
+}
+.donate-last-content p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #0000007a;
+}
+.donate-last-content hr{
+    border: 1px solid #0000007a;
+    margin: 15px auto 30px;
 }
